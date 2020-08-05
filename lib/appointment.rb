@@ -15,16 +15,4 @@ class Appointment
   def self.all
     @@all
   end
-
-  def patient
-    @patient
-
-
-  end
-
-  # def new_appointment(date, doctor)
-  #   Patient.new(date, doctor, self)
-  #
-  # end
-
 end
