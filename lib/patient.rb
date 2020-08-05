@@ -23,6 +23,8 @@ class Patient
 
   def appointments
 
+    Appointment.collect { |appointments| appointments.patient == self}
+
   end
 
 end
