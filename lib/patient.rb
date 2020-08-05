@@ -25,7 +25,9 @@ class Patient
 
   def appointments
 
-    Appointment.collect { |appointments| appointments.patient == self}
+    Appointment.collect do
+       |appointments| appointments.patient == self
+       d
 
   end
 
