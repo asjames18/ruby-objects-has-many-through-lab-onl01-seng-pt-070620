@@ -17,7 +17,7 @@ def songs
     song.genre = self}
 end
 
-def artist
+def artists
 
   Artist.all.select {|song|
     song.artist = self}
