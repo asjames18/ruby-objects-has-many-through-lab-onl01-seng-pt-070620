@@ -28,4 +28,8 @@ class Patient
       appointments.patient == self}
   end
 
+  def patirnts
+
+  end
+
 end
