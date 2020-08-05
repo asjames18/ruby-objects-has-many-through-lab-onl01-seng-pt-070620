@@ -29,7 +29,7 @@ class Patient
   end
 
   def patients
-    Patient.collect {|patient| patient.appointments}
+    Patient.all.select {|patient| patient.appointments == self}
 
   end
 
