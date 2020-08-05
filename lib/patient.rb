@@ -27,7 +27,7 @@ class Patient
 
     Appointment.collect do
        |appointments| appointments.patient == self
-       d
+     end
 
   end
 
