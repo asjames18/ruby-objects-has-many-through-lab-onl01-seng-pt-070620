@@ -29,7 +29,7 @@ class Patient
   end
 
   def patients
-    Patient.map {|patient| patient.appointments}
+    Patient.collect {|patient| patient.appointments}
 
   end
 
